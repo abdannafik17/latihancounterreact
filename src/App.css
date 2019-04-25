@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.controller {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  font-size: 40pt;
+  padding: 30px;
+  margin: 5px;
 }
 
 .App-logo {
